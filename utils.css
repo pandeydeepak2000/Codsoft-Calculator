@@ -1,0 +1,37 @@
+/* Center-align text and add a background with a repeating linear gradient at 45 degrees */
+
+.text-center {
+  text-align: center; /* Center-align the text within its container */
+  background: repeating-linear-gradient(45deg, #00000070, #00000063 100px); /* Create a repeating linear gradient as a background */
+}
+
+
+
+/* Set the left and right margins of an element to "auto" to horizontally center it */
+
+.mx-auto {
+  margin: auto; /* Set the left and right margins to "auto" to center the element */
+}
+
+/* Set the maximum width of an element to 20% of the viewport width */
+
+.m-w-20 {
+  max-width: 20vw; /* Set the maximum width to 20% of the viewport width */
+}
+
+/* Display the elements as a flex container */
+.flex {
+  display: flex; /* Set the display property to "flex" to create a flex container */
+}
+
+/* Set the flex direction of the container to be a column */
+
+.flex-col {
+  flex-direction: column; /* Arrange the flex items vertically in a column */
+}
+
+/* Align the items (flex items) along the cross axis (perpendicular to the main axis) to the center */
+
+.items-center {
+  align-items: center; /* Vertically center-align the flex items */
+}

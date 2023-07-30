@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <!-- Set the character encoding and viewport for the page -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+
+  <!-- Set the title of the page -->
+  <title>replit</title>
+
+  <!-- Link to the external CSS files for styling -->
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <link href="utils.css" rel="stylesheet" type="text/css" />
+
+</head>
+
+<body>
+  <!-- Display the heading "WelCome to Calculator" at the center of the page -->
+  <h1 class="text-center">WelCome to Calculator</h1>
+
+  <!-- Create a container for the calculator -->
+  <div class="container flex flex-col items-center  mx-auto m-w-20  ">
+
+    <!-- First row of the calculator: Input display -->
+    <div class="row">
+      <input class="input" type="text" />
+    </div>
+
+    <!-- Second row of buttons -->
+    <div class="row">
+      <button class="button">AC</button>
+      <button class="button">C</button>
+      <button class="button">%</button>
+      <button class="button">/</button>
+    </div>
+
+    <!-- Third row of buttons -->
+    <div class="row">
+      <button class="button">7</button>
+      <button class="button">8</button>
+      <button class="button">9</button>
+      <button class="button">*</button>
+    </div>
+
+    <!-- Fourth row of buttons -->
+    <div class="row">
+      <button class="button">4</button>
+      <button class="button">5</button>
+      <button class="button">6</button>
+      <button class="button">-</button>
+    </div>
+
+    <!-- Fifth row of buttons -->
+    <div class="row">
+      <button class="button">1</button>
+      <button class="button">2</button>
+      <button class="button">3</button>
+      <button class="button">+</button>
+    </div>
+
+    <!-- Sixth row of buttons -->
+    <div class="row">
+      <button class="button">00</button>
+      <button class="button">0</button>
+      <button class="button">.</button>
+      <button class="button">=</button>
+    </div>
+  </div>
+
+  <!-- Include the JavaScript file for the calculator functionality -->
+  <script src="script.js"></script>
+
+  <!-- Include the script to display the Replit badge on the full-browser view -->
+  <script src="https://replit.com/public/js/replit-badge-v2.js" theme="dark" position="bottom-right"></script>
+</body>
+
+</html>

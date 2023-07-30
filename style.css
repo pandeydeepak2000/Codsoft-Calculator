@@ -1,0 +1,78 @@
+/* Import the "Ubuntu" font from Google Fonts and apply it to the entire document */
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital@1&display=swap');
+
+/* Set some global styles for the HTML document */
+
+html {
+  height: 100%;
+  width: 100%;
+  font-family: "ubuntu", sans-serif; /* Set the font family to "Ubuntu" for the entire document */
+  background-color: rgb(157 165 188 / 57%); /* Set a semi-transparent background color for the document */
+}
+
+/* Styling for buttons */
+
+button {
+  width: 55px; /* Set the width of the buttons */
+  padding: 20px; /* Add padding inside the buttons */
+  margin: 0 3px; /* Add margin around the buttons */
+  border: 2px solid black; /* Add a black border around the buttons */
+  border-radius: 9px; /* Add rounded corners to the buttons */
+  cursor: pointer; /* Change the cursor to a pointer when hovering over the buttons */
+  background-color: #106d79cc; /* Set the background color of the buttons */
+  color: #fff; /* Set the text color of the buttons to white */
+  box-shadow: 5px 3px 3px 0px; /* Add a box shadow to the buttons */
+  font-size: inherit; /* Use the font size defined for the parent element (inherit from parent) */
+}
+
+/* Styling for buttons when hovered over */
+
+.button:hover {
+  cursor: pointer; /* Change the cursor to a pointer when hovering over the buttons */
+  color: black; /* Change the text color to black when hovering over the buttons */
+}
+
+/* Styling for the input field when hovered over */
+
+.input:hover {
+  cursor: pointer; /* Change the cursor to a pointer when hovering over the input field */
+  color: black; /* Change the text color to black when hovering over the input field */
+}
+
+/* Styling for each row of buttons */
+.row {
+  margin: 8px 0; /* Add margin above and below each row of buttons */
+}
+
+/* Styling for the input field inside each row */
+
+.row input {
+  font-size: 23px; /* Set the font size of the input field inside each row */
+  margin: 0; /* Reset margin for the input field */
+  padding: 13px; /* Add padding inside the input field */
+  border: 2px solid #000000; /* Add a black border around the input field */
+  border-radius: 5px; /* Add rounded corners to the input field */
+  width: 16vw; /* Set the width of the input field to 28% of the viewport width */
+  box-shadow: 1px 2px 1px; /* Add a box shadow to the input field */
+}
+
+/* Default styles for all screen sizes */
+
+/* Media query for mobile devices (screen width less than or equal to 768px) */
+@media only screen and (max-width: 768px) {
+  /* Add your mobile-specific styles here */
+  /* For example, you can change the font size, adjust margins, etc. */
+  .row input {
+    max-width: 90vw; /* For mobile, set the maximum width to 90% of the viewport width */
+  }
+}
+
+/* Media query for tablet devices (screen width between 769px and 1024px) */
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+  /* Add your tablet-specific styles here */
+  /* For example, you can adjust padding, change the font size, etc. */
+  .m-w-20 {
+    max-width: 50vw; /* For tablets, set the maximum width to 50% of the viewport width */
+  }
+}
